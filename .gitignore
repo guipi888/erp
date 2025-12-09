@@ -1,0 +1,19 @@
+# 忽略所有文件
+*
+
+# 不忽略目录
+!*/
+
+# 允许上传前端目录
+!front-end/**
+!front-end/
+
+# 允许上传 GitHub 工作流
+!.github/**
+!.github/
+
+# 忽略前端的临时文件
+front-end/node_modules/
+front-end/dist/
+front-end/.env.local
+front-end/.DS_Store
